@@ -171,6 +171,7 @@
             </ul>
 
         </div>
+ <a href='https://www.free-counters.org/'>Get free Counters</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=27e24c01675657ab8a0f174a348bfa092eb190f9'></script>
 
         <div class="footer-copyright text-center py-3">&copy; 2020 CoronaVarus . All Rights Reserved
         </div>
