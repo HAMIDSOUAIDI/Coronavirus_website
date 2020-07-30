@@ -134,6 +134,10 @@
         
             </div>
         </div>
+                  <div id="list2">
+         <a href='https://www.symptoma.es/'>symptoma.es</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=726c875e6b4ef0cdb9a7139198b0a3d527a5fde9'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/728678/t/6"></script>
+</div>
 </div>
     </article>
     <footer class="page-footer font-small special-color-dark pt-4">
