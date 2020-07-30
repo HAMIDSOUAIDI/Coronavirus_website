@@ -109,7 +109,7 @@
 </div>
 
 </div>
-<div>
+<div class="let">
         <div id="list2">
 <img class="img" src="https://i.ibb.co/YdN6z6Y/images-removebg-preview.png" alt="" srcset="">         
    <div class="cases">
@@ -134,7 +134,7 @@
         
             </div>
         </div>
-                     <div id="list2">
+                <div id="list2">
           <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=726c875e6b4ef0cdb9a7139198b0a3d527a5fde9'></script>
 <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/728678/t/6"></script>
 </div>
@@ -175,8 +175,7 @@
             </ul>
 
         </div>
- <a href='https://www.free-counters.org/'>Get free Counters</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=27e24c01675657ab8a0f174a348bfa092eb190f9'></script>
-
+        
         <div class="footer-copyright text-center py-3">&copy; 2020 CoronaVarus . All Rights Reserved
         </div>
 
