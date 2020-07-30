@@ -111,7 +111,7 @@
 </div>
 <div>
         <div id="list2">
-<img src="https://i.ibb.co/YdN6z6Y/images-removebg-preview.png" alt="" srcset="">         
+<img class="img" src="https://i.ibb.co/YdN6z6Y/images-removebg-preview.png" alt="" srcset="">         
    <div class="cases">
                 <div id="tcases2"></div>
                 <label for="">Currently Infected Patients</label>
@@ -119,7 +119,7 @@
             </div>
         </div>
         <div id="list2">
-<img src="https://i.ibb.co/G3LBxcb/lungs-icon-2.png" alt="" srcset="">          
+<img class="img" src="https://i.ibb.co/G3LBxcb/lungs-icon-2.png" alt="" srcset="">          
   <div class="Recivered">
                 <div id="trecovered2"></div>
                 <label for="">in mild condition</label>
@@ -127,7 +127,7 @@
             </div>
         </div>
         <div id="list2">
-            <img src="https://i.ibb.co/7KgvM4s/protection-mask.png" alt="" srcset="">
+            <img class="img" src="https://i.ibb.co/7KgvM4s/protection-mask.png" alt="" srcset="">
             <div class="deaths">
                 <div id="infected"></div>
                 <label for="">in serious condition</label>
