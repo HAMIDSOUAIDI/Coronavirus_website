@@ -316,7 +316,10 @@ footer{
 
 }
 }
-@media (max-width:450px) {
+@media (max-width:600px) {
+   .footerdiv{
+        margin: 0px;
+    } 
 .i{
     display: block;
 }
