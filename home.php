@@ -34,7 +34,15 @@
     <header>
         <h1>Coronavirus</h1>
         <div class="navbar">
-            <ul>
+         
+           <ul class="menu">
+          <li> <div id="nav-icon1" onclick="myFunction()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div></li>
+                    </ul>
+            <ul id="mea">
                 <li><a  href="home.php">World wide</a></li>
                 <li><a  href="symptoms.php">Symptoms</a></li>
                 <li><a  href="prevent.php">prevention</a></li>
@@ -135,10 +143,10 @@
             </div>
         </div>
                 <div id="list2">
-         <a href="https://coronavirus-cases-update.herokuapp.com/"><img src="http://vigrx.co/count.php?c_style=5&id=1596158244" border="0"></a>
+<a href="https://coronavirus-cases-update.herokuapp.com/"><img src="http://vigrx.co/count.php?c_style=5&id=1596158244" border="0"></a><br>
 
-</div>
-</div>
+
+ </div>
     </article>
     <footer class="page-footer font-small special-color-dark pt-4">
 
