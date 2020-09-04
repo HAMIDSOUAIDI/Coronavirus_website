@@ -1,8 +1,77 @@
 $(document).ready(function () {
-    $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function () {
-        $(this).toggleClass('open');
+    $(".changered").click(function () {
+        document.documentElement.style.setProperty('--bcolor', '#950741');
+        document.documentElement.style.setProperty('--backcolor', '#fff');
+/*
+
+        $("body").removeClass("allblue");
+        $("body").removeClass("allyalow");
+        $("body").removeClass("allgreen");
+
+        $("body").addClass("allred");
+        $(".mainphoto").addClass("red");
+*/
+    });
+    $(".changeblue").click(function () {
+       /* $(".mainphoto").removeClass("red");
+        $(".mainphoto").removeClass("yalow");
+        $(".mainphoto").removeClass("green");*/
+
+        document.documentElement.style.setProperty('--bcolor', '#02D9FC');
+        document.documentElement.style.setProperty('--backcolor', '#fff');
+
+     /*   $("body").removeClass("allred");
+        $("body").removeClass("allyalow");
+        $("body").removeClass("allgreen");
+
+        $("body").addClass("allblue");
+        $(".mainphoto").addClass("blue");*/
+
+    });
+    $(".changeorange").click(function () {
+      /*  $(".mainphoto").removeClass("red");
+        $(".mainphoto").removeClass("blue");
+        $(".mainphoto").removeClass("green");*/
+
+
+        document.documentElement.style.setProperty('--bcolor', '#E67E22');
+        document.documentElement.style.setProperty('--backcolor', '#fff');
+
+      /*  $("body").removeClass("allred");
+        $("body").removeClass("allblue");
+        $("body").removeClass("allgreen");
+
+        $("body").addClass("allyalow");
+        $(".mainphoto").addClass("yalow");*/
+
+    });
+    $(".changegreen").click(function () {
+      /*  $(".mainphoto").removeClass("red");
+        $(".mainphoto").removeClass("blue");
+        $(".mainphoto").removeClass("yalow");
+*/
+
+        document.documentElement.style.setProperty('--bcolor', '#1ABC9C');
+        document.documentElement.style.setProperty('--backcolor', '#fff');
+
+     /*   $("body").removeClass("allred");
+        $("body").removeClass("allblue");
+        $("body").removeClass("allyalow");
+
+
+        $("body").addClass("allgreen");
+        $(".mainphoto").addClass("green");*/
+
+    });
+    $(".multiple").click(function () {
+        var n = document.getElementById('hider');
+        if (n.style.display === "none")
+            n.style.display = "inline-block";
+        else
+            n.style.display = "none";
     });
 });
+
 function myFunction() {
     var x = document.getElementById("mea");
     if (x.style.display === "block") {
@@ -10,7 +79,7 @@ function myFunction() {
     } else {
         x.style.display = "block";
     }
-}
+}     
 am4core.ready(function () {
 
     // Themes begin
@@ -30,7 +99,7 @@ am4core.ready(function () {
         // for an easier access by key
         var colors = { active: activeColor, confirmed: confirmedColor, recovered: recoveredColor, deaths: deathsColor };
 
-        var countryColor = am4core.color("#02D9FC");
+        var countryColor = am4core.color("#1CA1F2");
         var countryStrokeColor = am4core.color("#000000");
         var buttonStrokeColor = am4core.color("#1FC2C1");
         var countryHoverColor = am4core.color("#1FC2C1");
@@ -407,7 +476,7 @@ am4core.ready(function () {
                 mapPolygon.defaultState.properties.fill = undefined;
             })
         })
-
+        
 
         // buttons & chart container
         var buttonsAndChartContainer = container.createChild(am4core.Container);
@@ -930,8 +999,8 @@ am4core.ready(function () {
             button.label.fill = am4core.color("#ffffff");
             button.label.fontSize = "11px";
             button.background.cornerRadius(30, 30, 30, 30);
-            button.background.strokeOpacity = 0.3
-            button.background.fillOpacity = 0;
+            button.background.strokeOpacity = 0.3;
+            button.background.fillOpacity = 1;
             button.background.stroke = buttonStrokeColor;
             button.background.padding(2, 3, 2, 3);
             button.states.create("active");

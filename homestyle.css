@@ -2,13 +2,64 @@
             margin: 0;
             padding: 0;
             font-family:Roboto,Arial, Helvetica, sans-serif ;
-                     --hovercolor:#02c6e4;
 
         }
         :root {
+      --hovercolor:#fafafa4d;
       --bcolor: #02D9FC;
          --backcolor:white;
-         }  
+         } 
+         /*change colors*/ 
+
+         .multiple {
+    float:left;
+   border: none;
+    margin-left: 30px;
+    border-radius: 100%;
+    padding: 14px 14px;
+  background: linear-gradient( -45deg, #02D9FC, #02D9FC 49%, #FFFF1B 49%, #FFFF1B 51%,#1BFF1B 51% ); 
+}
+#hider{
+    display: none;
+}
+.mainphoto{
+  margin-top: 5px;
+  width: 100%;
+  height: 50px;
+}
+.buttons{
+    width: 180px;
+    float: left;
+}
+.changeblue{
+        float:right;
+        border: none;
+    border-radius: 100%;
+    padding: 14px 14px;
+    background-color: #02D9FC;
+}
+.changeorange{
+        float:right;
+        border: none;
+    border-radius: 100%;
+    padding: 14px 14px;
+    background-color: #E67E22;
+}
+.changegreen{
+        float:right;
+        border: none;
+    border-radius: 100%;
+    padding: 14px 14px;
+    background-color: #1ABC9C;
+}
+.changered{
+    float:right;
+    border: none;
+        border-radius: 100%;
+    padding: 14px 14px;
+    background-color: #fa2c2cc4;
+}
+/*navbar*/
         .navbar {
             float: right;
             width: 80%;
@@ -165,7 +216,7 @@ footer{
 height: 150px;}
 .footer-copyright{
   color: var(--backcolor);
-      margin-left: 37%;
+      margin-left: 39%;
           margin-top: 20px;
 
     margin-bottom: 10px;
@@ -233,7 +284,7 @@ height: 150px;}
 }
 .footerdiv{
     
-    margin-left: 25%;
+margin-left: 30%;
 }
 .fa-facebook-f{
     color: #1877f2;
@@ -276,7 +327,7 @@ display: none;
   position: absolute;
   height: 9px;
   width: 100%;
-  background: #d3531a;
+  background: var(--backcolor);
   border-radius: 9px;
   opacity: 1;
   left: 0;
@@ -393,22 +444,50 @@ footer{
     margin-bottom: 10px;
 
 }
-}
-@media (max-width:600px) {
-    .footerdiv{
+ .footerdiv{
         margin: 0px;
+        
+    
+    margin-left: 25%;
+
     } 
-.i{
-    display: block;
+i{
+ 
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+
 }
  #nav-icon1{
       display: block;
   }  
   .menu{
+    margin-right: 10px;
       margin-top: -90px;
       display: block;
   }
   #mea{
     display:none;
+}
+}
+
+@media (max-width:490px) {
+  li {
+            color:var(--backcolor);
+         font-size: small;
+            padding: 5px 0px;
+        }
+
+.footerdiv{
+    
+    margin-left: 0%;
+}
+}
+@media (max-width:430px) {
+  
+
+.footerdiv{
+    
+    margin-left: -10%;
 }
 }

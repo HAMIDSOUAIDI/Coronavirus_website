@@ -8,8 +8,7 @@
     <link rel="icon" href="https://i.ibb.co/w6K9r3y/coronavirus-2019.jpg" type="image/x-icon">
 <script src="https://kit.fontawesome.com/f300a501c9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel="stylesheet" href="astyle.css?version=51">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="astyle.css?version=52">
 
     <title>Coronavirus</title>
     <style>
@@ -22,22 +21,30 @@
 </head>
 
 <body>
-    <header>
+   <header>
         <h1>Coronavirus</h1>
         <div class="navbar">
-            <ul>
+         
+           <ul class="menu">
+                                <li> <div id="nav-icon1" onclick="myFunction()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </div></li>
+                    </ul>
+            <ul id="mea">
                 <li><a  href="home.php">World wide</a></li>
                 <li><a  href="symptoms.php">Symptoms</a></li>
                 <li><a  href="prevent.php">prevention</a></li>
-                <li><a  href="#">About us</a></li>
+                <li><a  href="about.php">About us</a></li>
                 <li> 
                     <form autocomplete="off" action="/action_page.php">
-  <div class="autocomplete" style="width:300px;">
-    <input id="myInput" type="text" name="myCountry" placeholder="Country">
-  </div>
-                                <i class="fas fa-search" onclick="heh()"></i></li>
-</form></li>
-            <!--   <li class="log">login</li>
+              <div class="autocomplete" style="width:300px;">
+                   <input id="myInput" type="text" name="myCountry" placeholder="Country">
+                                </div>
+                                <i class="fas fa-search" onclick="heh()"></i>
+                          </form></li>
+              <!--   <li class="log">login</li>
                <li class="join">join</li>-->
             </ul>
         </div>
@@ -197,7 +204,17 @@
 
        /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
        autocomplete(document.getElementById("myInput"), countries);
-           
+                
+       
+       
+       function myFunction() {
+    var x = document.getElementById("mea");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+} 
     </script>
 </body>
 

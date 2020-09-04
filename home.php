@@ -15,6 +15,7 @@
 <script src="https://covid.amCharts.com/data/js/total_timeline.js"></script>
 <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
 <script src="https://www.amcharts.com/lib/4/themes/material.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://kit.fontawesome.com/f300a501c9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="homestyle.css?version=51">
@@ -36,11 +37,11 @@
         <div class="navbar">
          
            <ul class="menu">
-          <li> <div id="nav-icon1" onclick="myFunction()">
+                                <li> <div id="nav-icon1" onclick="myFunction()">
                     <span></span>
                     <span></span>
                     <span></span>
-                </div></li>
+                 </div></li>
                     </ul>
             <ul id="mea">
                 <li><a  href="home.php">World wide</a></li>
@@ -49,18 +50,30 @@
                 <li><a  href="about.php">About us</a></li>
                 <li> 
                     <form autocomplete="off" action="/action_page.php">
-  <div class="autocomplete" style="width:300px;">
-    <input id="myInput" type="text" name="myCountry" placeholder="Country">
-  </div>
+              <div class="autocomplete" style="width:300px;">
+                   <input id="myInput" type="text" name="myCountry" placeholder="Country">
+                                </div>
                                 <i class="fas fa-search" onclick="heh()"></i>
-</form></li>
-            <!--   <li class="log">login</li>
+                          </form></li>
+              <!--   <li class="log">login</li>
                <li class="join">join</li>-->
             </ul>
         </div>
 
     </header>
 <article>
+ <div class="mainphoto blue">
+        <div class="buttons">
+             <button class="multiple"></button>
+            <div id="hider">
+                <button class="changeblue"></button>
+                <button class="changered"></button>
+                <button class="changeorange"></button>
+                <button class="changegreen"></button>
+            </div>    
+        </div>
+        </div>
+        
     <div class="alllist">
             <div id="list">
                 <div class="cases">
@@ -322,7 +335,8 @@
 
        /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
        autocomplete(document.getElementById("myInput"), countries);
-           
+     
+
     </script>
 </body>
 

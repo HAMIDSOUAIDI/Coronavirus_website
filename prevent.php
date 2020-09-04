@@ -23,22 +23,31 @@
 </head>
 
 <body>
+ 
     <header>
         <h1 class="maintitle">Coronavirus</h1>
         <div class="novbar">
-            <ul class="nov">
+         
+           <ul class="menu ">
+                                <li> <div id="nav-icon1" onclick="myFunction()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </div></li>
+                    </ul>
+            <ul id="mea">
                 <li><a  href="home.php">World wide</a></li>
                 <li><a  href="symptoms.php">Symptoms</a></li>
                 <li><a  href="prevent.php">prevention</a></li>
                 <li><a  href="about.php">About us</a></li>
-              <li> 
+                <li> 
                     <form autocomplete="off" action="/action_page.php">
-  <div class="autocomplete" style="width:300px;">
-    <input id="myInput" type="text" name="myCountry" placeholder="Country">
-  </div>
-                                <i class="fas fa-search" onclick="heh()"></i></li>
-</form></li>
-            <!--   <li class="log">login</li>
+              <div class="autocomplete" style="width:300px;">
+                   <input id="myInput" type="text" name="myCountry" placeholder="Country">
+                                </div>
+                                <i class="fas fa-search" onclick="heh()"></i>
+                          </form></li>
+              <!--   <li class="log">login</li>
                <li class="join">join</li>-->
             </ul>
         </div>
@@ -419,6 +428,14 @@
 
           /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
           autocomplete(document.getElementById("myInput"), countries);
+           function myFunction() {
+    var x = document.getElementById("mea");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+} 
     </script>
 </body>
 
